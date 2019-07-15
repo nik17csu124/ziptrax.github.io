@@ -61,9 +61,7 @@
           </nav>
         </div>
       </header>
-      <section class="section parallax-container context-dark" data-parallax-img="cover.jpg" style="height:600px;background: linear-gradient(
-        rgba(0, 0, 0), 
-        rgb(0, 0, 0)  "  >
+      <section class="section parallax-container context-dark" data-parallax-img="cover.jpg" style="height:600px" >
         <div class="parallax-content">
           <!-- FScreen-->
           <div class="page-header-2-inner">
@@ -72,9 +70,10 @@
             
              
               <h2   class="font-weight-extra-black wow clipInLeft" data-wow-delay=".1s" style="color:rgb(255, 255, 255)">ZIPTRAX CLEANTECH </h2>
-                
-                  
-                <h4 class="text-default wow clipInLeft" data-wow-delay=".1s" style="color:rgb(255, 255, 255)">Ziptrax is involved in managing, developing and deployment of Patented Green Tech for Recycling of different categories of E-waste and Plastics into Valuable substitutes. Two Green Technologies were developed by Chief Innovator, Late Mr.Rahul Nagpaul, for recycling of 18 categories of E-waste, Plastics and MSW.</h4>
+              <!-- <p>&nbsp;</p> -->
+              <h3   class="font-weight-extra-black wow clipInLeft" data-wow-delay=".1s" style="color:rgb(255, 255, 255); margin-top: 10px">Lithium-Ion Battery <span id="type_writer"></span> </h3> 
+              <h4 class="text-default wow clipInLeft" data-wow-delay=".1s" style="color:rgb(255, 255, 255); margin-top: 10px">Ziptrax extends the life of Li-ion batteries by combining it with our AI-based Technology. Our artificial intelligence engine and IoT enabled hardware makes Lithium ion batteries last for up to 40% longer.
+              </h4>
                 <div class="group-xl group-middle">
                   <div><a class="button button-lg button-white button-shadow button-winona wow clipInLeft" href="about-us.html" data-wow-delay=".2s">Read more</a></div>
                   <div><a class="button button-lg button-primary button-shadow button-winona wow clipInLeft" href="contact-us.html" data-wow-delay=".2s">Get in Touch</a></div>
@@ -504,5 +503,24 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </body>
 </html>
+
+<script>
+var app = document.getElementById('type_writer');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Recycling')
+    .pauseFor(2000)
+    .deleteAll()
+    .typeString('Repurposing')
+    .pauseFor(2000)
+    .deleteAll()
+    .typeString('Recovery')
+    .pauseFor(2000)
+    .start();
+</script>
