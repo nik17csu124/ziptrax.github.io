@@ -18100,6 +18100,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	opacity: 0.2;
 }
 
+.about-us-banner{
+	height: 55vh;
+}
+
 [data-x-mode='true'] .material-parallax {
 	pointer-events: auto;
 }
