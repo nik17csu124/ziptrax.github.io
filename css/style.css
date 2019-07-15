@@ -18097,7 +18097,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	max-width: none;
 	transform: translate3d(-50%, 0, 0);
 	background-color: #444;
-	opacity: 0.6;
+	opacity: 0.2;
 }
 
 [data-x-mode='true'] .material-parallax {
